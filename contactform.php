@@ -7,7 +7,7 @@ if(isset($_POST['submit'])){
 	$mailFrom=$_POST['email'];
 	$message=$_POST['message'];
 	
-$mailTo = "olomijeezekiel@yahoo.com"
+$mailTo = ""https://formspree.io/olomijeezekiel@gmail.com""
 $headers = "From: ".$mailFrom
 $txt = "You have received an email from ".$name.".\n\n".$message;
 
